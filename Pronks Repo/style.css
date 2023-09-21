@@ -1,0 +1,138 @@
+div {
+    padding: 20px;
+}
+
+h2, h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+    color: white;
+  }
+
+.header {
+    height: 117px;
+      background-color: #2f99ea;
+      align-self: center;
+}
+
+.pronks {
+    opacity: 1;
+    border: #2f99ea;
+    border-style: dashed;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transition: transform .5s ease;
+}
+
+.about{
+    text-align: center;
+}
+
+.ulabout {
+    background-color: #2f99ea
+}
+
+.aboutli {
+    display: inline-block;
+    text-align: left;
+}
+
+ul.aboutli li {
+    backmargin-bottom: 5px;
+   }
+
+.meetpronks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pronkslogo {
+    background-color: #2f99ea;
+}
+
+.footerclass {
+    background-color: #2f99ea;
+}
+
+.pronks:hover {
+    opacity: 0.6;
+    transform: scale(1.15);
+}
+
+.pronksmeet1 {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transition: transform .5s ease;
+}
+
+.pronksmeet2 {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transition: transform .5s ease;
+}
+
+.pronksmeet1:hover {
+    opacity: 0.6;
+    transform: scale(1.15);
+    
+}
+
+.pronksmeet2:hover {
+    opacity: 0.6;
+    transform: scale(1.15);
+}
+
+.pronksvideo {
+    opacity: 0.7;
+    transition: transform .5s ease;   
+}
+
+.pronksvideo:hover {
+    opacity: 1;
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    transform: scale(1.15);
+}
+
+#one {
+    background-color: #2f99ea;
+}
+
+#two {
+    background-color: #2f99ea;
+}
+
+#three {
+    background-color: #2f99ea;
+}
+
+#four {
+    background-color: #2f99ea;
+}
+
+#five {
+    background-color: rgb(39, 141, 237);
+    color: whitesmoke;
+    opacity:  0.7;
+}
+
+footer {
+    padding-top: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:link {
+    color:#2f99ea
+}
+
+a:visited {
+    color: crimson;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: fuchsia;
+}
